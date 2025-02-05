@@ -1,20 +1,23 @@
-# Use official Node.js image
-FROM node:18
+# Use a lightweight Node.js image
+FROM node:18-slim
 
 # Set working directory
 WORKDIR /app
 
-# Copy frontend code
-COPY . .
+# Copy package.json first (to leverage Docker caching)
+COPY package.json package-lock.json ./
 
 # Install dependencies
-RUN npm install
+RUN npm install --legacy-peer-deps
 
-# Build project
+# Copy the entire project
+COPY . .
+
+# Build the project
 RUN npm run build
 
-# Expose port
+# Expose port for development
 EXPOSE 3000
 
-# Start frontend
+# Start the app
 CMD ["npm", "start"]

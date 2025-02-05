@@ -1,0 +1,37 @@
+{
+  "terrain": [
+    "Cybernetic Metropolis",
+    "Desert Wasteland",
+    "Floating Islands",
+    "Underground Caverns",
+    "Oceanic City",
+    "Volcanic Plains",
+    "Bio-Engineered Forests"
+  ],
+  "buildings": [
+    "Floating Skyscrapers",
+    "Vertical Farms",
+    "AI-Controlled Factories",
+    "Underground Markets",
+    "Solar-Powered Residences",
+    "Holographic Museums",
+    "Drone-Powered Warehouses"
+  ],
+  "lighting": [
+    "Neon Cyberpunk Night",
+    "Solar Eclipse Glow",
+    "Bioluminescent Night",
+    "Quantum Light Shimmer",
+    "Aurora-Fused Skies",
+    "AI-Controlled Dynamic Lighting"
+  ],
+  "npc": [
+    "Autonomous Robots and Humans Co-existing",
+    "Hybrid Cyborgs",
+    "Sentient AI Vendors",
+    "Digital Ghosts",
+    "Hyperloop Travelers",
+    "Cloned Workforce",
+    "Alien Traders"
+  ]
+}
