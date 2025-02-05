@@ -8,6 +8,8 @@ It allows users to input a prompt (e.g., "Generate a futuristic city") and gener
 - **Lighting Conditions** (e.g., Day/Night, Cyberpunk Neon, etc.)
 - **NPC Behavior** (e.g., Crowded, Empty, Active Market, etc.)
 
+![Demo](demo.gif)
+
 The project integrates **OpenAI's GPT-4o** to intelligently classify and generate relevant world-building elements.
 
 ---
