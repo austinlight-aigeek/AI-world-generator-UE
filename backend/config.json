@@ -1,37 +1,52 @@
 {
   "terrain": [
-    "Cybernetic Metropolis",
-    "Desert Wasteland",
-    "Floating Islands",
-    "Underground Caverns",
-    "Oceanic City",
-    "Volcanic Plains",
-    "Bio-Engineered Forests"
+    "desert",
+    "urban",
+    "mountain",
+    "forest",
+    "coastal",
+    "tundra",
+    "volcanic",
+    "swamp"
   ],
   "buildings": [
-    "Floating Skyscrapers",
-    "Vertical Farms",
-    "AI-Controlled Factories",
-    "Underground Markets",
-    "Solar-Powered Residences",
-    "Holographic Museums",
-    "Drone-Powered Warehouses"
+    "apartment",
+    "house",
+    "villa",
+    "skyscraper",
+    "market",
+    "shopping mall",
+    "restaurant",
+    "hotel",
+    "factory",
+    "warehouse",
+    "power plant",
+    "stadium",
+    "castle",
+    "museum",
+    "church",
+    "temple",
+    "space station",
+    "tower"
   ],
   "lighting": [
-    "Neon Cyberpunk Night",
-    "Solar Eclipse Glow",
-    "Bioluminescent Night",
-    "Quantum Light Shimmer",
-    "Aurora-Fused Skies",
-    "AI-Controlled Dynamic Lighting"
+    "day",
+    "night",
+    "sunset",
+    "stormy",
+    "cyberpunk neon",
+    "eclipse",
+    "foggy",
+    "post-apocalyptic dim"
   ],
-  "npc": [
-    "Autonomous Robots and Humans Co-existing",
-    "Hybrid Cyborgs",
-    "Sentient AI Vendors",
-    "Digital Ghosts",
-    "Hyperloop Travelers",
-    "Cloned Workforce",
-    "Alien Traders"
+  "npc_behavior": [
+    "crowded",
+    "empty",
+    "active market",
+    "quiet town",
+    "chaotic",
+    "military patrol",
+    "zombie outbreak",
+    "festive"
   ]
 }
